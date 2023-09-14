@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parroquia Maria Auxiliadora</title>
+
+    <style>
+        /* Estilo para el banner */
+        #BANNERR {
+            background-color: rgba(0, 0, 0, 0.9); /* Fondo gris oscuro con transparencia */
+            text-align: center;
+            width: 100%; /* Ocupa todo el ancho de la página */
+            padding: 20px 0; /* Espaciado interno superior e inferior */
+            position: fixed; /* Fijar el banner en la parte superior de la página */
+            top: 0;
+            left: 0;
+            z-index: 999; /* Asegura que esté por encima de otros elementos */
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #BANNERR a {
+            color: white; /* Color del texto en el banner */
+            text-decoration: none; /* Elimina la subrayado de los enlaces */
+            margin: 0 23px; /* Espaciado horizontal entre enlaces */
+            font-size: 18px; /* Tamaño del texto */
+            text-align: center; /* Alinea el texto al centro */
+        }
+
+        #BANNERR a:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+        }
+
+        #redes-acercade {
+            background-color: #111111;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #ultimo-acercade {
+            justify-content: space-between;
+            padding: 20px;
+            margin-bottom: 10px; /* Espacio para el nuevo div con fondo gris oscuro y pie de página */
+        }
+
+        #ultimo-acercade {
+            background-color: #292929; /* Color gris claro */
+            padding: 80px;
+            text-align: center;
+            color: #fff; /* Cambiar el color del texto a blanco */
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #ACERCA {
+            padding: 60px;
+            text-align: center;
+            font-family: Ubuntu, 'Ubuntu Regular', sans-serif;
+            color: #2A2929;
+        }
+
+        /* Estilos para los contenedores de imágenes y descripciones */
+        .acerca-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .acerca2 {
+            width: calc(33.33% - 20px); /* 3 columnas en una fila con margen entre ellas */
+        }
+
+       
+        .acerca2 h3 {
+            font-size: 20px;
+        }
+
+        .acerca2 p {
+            font-size: 16px;
+        }
+        #pepe{
+            text-align: center;
+             justify-content: center;
+             font-family: Ubuntu, 'Ubuntu Regular', sans-serif;
+            color: #2A2929;
+            padding: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="BANNERR">
+        <a href="index.html">INICIO</a>
+        <a href="acerca.html">ACERCA DE</a>
+        <a href="horario.html">HORARIO</a>
+        <a href="eventos.html">ACTIVIDADES</a>
+    </div>
+
+    <!-- Sección "ACERCA DE" -->
+    <div id="ACERCA">
+        <br><br>
+        <h1>ACERCA DE</h1>
+        <br><br> 
+        <!-- Contenedor para las imágenes y descripciones en forma de columna -->
+        <div class="acerca-container">
+            <!-- Columna 1 -->
+            <div class="acerca2">
+                <img src="img/m1.jpg" alt="Imagen 1" width="350">
+                <h3>MISIÓN</h3>
+                <p>Nuestra misión es glorificar a Dios y cumplir su mandato de amor a través del servicio a nuestra comunidad y al mundo.</p>
+            </div>
+            <div class="acerca2">
+                <img src="img/m2.jpg" alt="Imagen 2" width="380">
+                <h3>VISIÓN</h3>
+                <p>Ser una comunidad cristiana vibrante y comprometida que proclama el amor de Dios y transforma vidas a través de Jesucristo.</p>
+            </div>
+            <div class="acerca2">
+                <img src="img/papa.jpg" alt="Imagen 3" width="340">
+                <h3>HISTORIA</h3>
+                <p>La Iglesia se encuentra en la ciudad de Guatemala y fue construida el 15 de agosto de 1935, pertenece a la Orden Diocesana.</p>
+            </div>
+
+            <!-- Columna 2 -->
+            <div class="acerca2">
+                <img src="img/m4.jpg" alt="Imagen 4" width="330">
+                <h3>MISIÓN Y VALORES</h3>
+                <p>La administración de la Parroquia María Auxiliadora está alineada con la misión y los valores de la iglesia, así como trabajar para cumplir con ellos.</p>
+            </div>
+            <div class="acerca2">
+                <img src="img/m5.jpg" alt="Imagen 5" width="400" >
+                <h3>LIDERAZGO</h3>
+                <p>La iglesia cuenta con líderes responsables y comprometidos que toman decisiones informadas y estratégicas.</p>
+            </div>
+            <div class="acerca2">
+                <img src="img/m6.jpg" alt="Imagen 6" width="350">
+                <h3>COMUNICACIÓN</h3>
+                <p>La comunicación efectiva y clara es esencial para coordinar las actividades y recursos de la iglesia y mantener a los miembros informados y comprometidos.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="pepe">
+                     <a href="https://www.google.com/maps/place/Iglesia+Maria+Auxiliadora/@14.6236047,-90.5032247,15z/data=!4m2!3m1!1s0x0:0x10edc18a37e3c0cb?sa=X&ved=2ahUKEwi-pPnKnqiBAxVMibAFHeDNCVoQ_BJ6BAg6EAA&ved=2ahUKEwi-pPnKnqiBAxVMibAFHeDNCVoQ_BJ6BAhIEAg" target="_blank"><img src="img/MAPA.png" alt="Facebook"></a>
+                    <h3>Haz click para conocer nuestra ubicación</h3>
+                  <br><br>
+                    
+                </div>
+
+    <div id="ultimo-acercade" >
+       <h2>LOCACIÓN Y SERVICIOS</h2>
+        <p>Parroquia María Auxiliadora</p>
+        <p>25 Avenida 24-41 zona 5 La Palmita- Ciudad de Guatemala</p>
+        <p>(502)3277 3687</p>
+        <br>
+        <p> De lunes a viernes:</p>
+        <p>Horario de Oficina Parroquial: 9:00 am - 1:00 pm | 2:00 pm - 5:00 pm</p>
+        <p>Sábados: 9:00 am - 1:00 pm</p>
+    </div>
+
+    <!-- Pie de página con enlaces a redes sociales y sus iconos -->
+    <div id="redes-acercade">
+        <a href="https://wa.me/message/7QPXLZ2VRGVYK1"><img src="img/w1.png" alt="WhatsAp"></a>
+        <a href="https://www.youtube.com/Parroquia%20Mar%C3%ADa%20Auxiliadora" target="_blank"><img src="img/y1.png" alt="YouTube"></a>
+        <a href="https://www.facebook.com/LaPalmitaZ5/?locale=es_LA" target="_blank"><img src="img/f1.png" alt="Facebook"></a>
+    </div>
+</body>
+</html>

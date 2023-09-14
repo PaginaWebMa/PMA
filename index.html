@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parroquia Maria Auxiliadora</title>
+     <style>
+        /* Estilo para el banner */
+        #BANNER {
+            background-color: rgba(0, 0, 0, 0.9); /* Fondo gris oscuro con transparencia */
+            text-align: center;
+            width: 100%; /* Ocupa todo el ancho de la página */
+            padding: 20px 0; /* Espaciado interno superior e inferior */
+            position: fixed; /* Fijar el banner en la parte superior de la página */
+            top: 0;
+            left: 0;
+            z-index: 999; /* Asegura que esté por encima de otros elementos */
+             margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #BANNER a {
+            color: white; /* Color del texto en el banner */
+            text-decoration: none; /* Elimina la subrayado de los enlaces */
+            margin: 0 23px; /* Espaciado horizontal entre enlaces */
+            font-size: 18px; /* Tamaño del texto */
+            text-align: center; /* Alinea el texto al centro */
+        }
+
+        #BANNER a:hover {
+            text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+        }
+
+         #inicio2{
+        text-align: center;
+        font-family: Ubuntu, 'Ubuntu Regular', sans-serif;
+         margin-bottom: 5px; /* Espacio para el nuevo div con fondo gris oscuro y pie de página */
+         color: #2A2929;
+
+            }
+
+       /* Estilo para cada elemento de imagen y descripción en INICIO */
+        .imagen {
+            display: inline-block; /* Alinea elementos en línea */
+            width: 20%; /* Ancho de cada elemento */
+            margin: 13px; /* Espaciado entre elementos */
+            text-align: center; /* Alinea el contenido al centro */
+            vertical-align: top; /* Alinea las imágenes en la parte superior */
+        }
+
+        .imagen img {
+            width: 37%; /* Ocupa todo el ancho del contenedor */
+        }
+
+        /* Estilo para el texto de descripción */
+        .imagen h3, .imagen p {
+            margin: 10px 0; /* Espaciado interno para h3 y p */
+        }
+        /* Estilo para el div FONDO */
+        #FONDO {
+            Background-color: #292929; /* Color gris oscuro */
+            padding: 20px; /* Espacio interno para la imagen y descripción */
+            margin-top: 20px; /* Espacio entre el nuevo div y las imágenes */
+            align-items: center; /* Centrar verticalmente los elementos */
+        }
+
+        /* Estilo para la imagen en el div FONDO */
+        #imagen-fondo {
+            width: 45%; /* La imagen ocupa la mitad del ancho del div */
+            max-height: 450px; /* Altura máxima de la imagen */
+        }
+
+        /* Estilo para el texto en el div FONDO */
+        #descripcion-fondo {
+            width: 50%; /* La descripción ocupa la mitad del ancho del div */
+            color: #fff;
+        }
+         #contenido-fondo {
+            display: flex; /* Mostrar elementos en línea horizontalmente */
+            justify-content: space-between; /* Espacio entre la imagen y la descripción */
+            align-items: center; /* Centrar verticalmente los elementos */
+             font-family: 'Montserrat', sans-serif;
+        }
+
+        #REDES-SOCIALES{
+     background-color: #111111;
+     padding: 10px;
+     text-align: center;
+     }
+
+     #ULTIMO{
+
+            justify-content: space-between;
+            padding: 20px;
+            margin-bottom: 10px; /* Espacio para el nuevo div con fondo gris oscuro y pie de página */
+
+        }
+
+     #ULTIMO {
+    background-color: #292929; /* Color gris claro */
+    padding: 60px;
+    text-align: center;
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-family: 'Montserrat', sans-serif;
+
+}
+ #secundario {
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+       
+    </style>
+ 
+
+</head>
+
+<body>
+    <!-- Sección de banner -->
+    <div id="BANNER">
+        <a href="index.html">INICIO</a>
+        <a href="acerca.html">ACERCA DE</a>
+        <a href="horario.html">HORARIO</a>
+        <a href="eventos.html">ACTIVIDADES</a>
+    </div>
+
+    <!-- Sección "INICIO" -->
+    <div id="INICIO">
+        <img src="img/imageninicio.jpg" alt="Imagen de inicio" width="1500" height="auto">
+        <!-- Contenedor para las imágenes y descripciones -->
+        <br><br><br>
+        <div id="inicio2">
+            <div class="imagen">
+                <img src="img/11.png" alt="Directions" width="100">
+                <h3>DIRECCION / TIEMPOS</h3>
+                <p>Ven y visítanos personalmente,¡Te esperamos!</p>
+            </div>
+            <div class="imagen">
+                <img src="img/2.png" alt="Events" width="100">
+                <h3>ACTIVIDADES</h3>
+                <p>Entérate de las diversas actividades que realizamos</p>
+            </div>
+            <div class="imagen">
+                <img src="img/3.png" alt="Request Prayer" width="100">
+                <h3>HORARIOS</h3>
+                <p>De oficina parroquial y Eucaristías</p>
+            </div>
+            <div class="imagen">
+                <img src="img/4.png" alt="Watch" width="100">
+                <h3>NUESTRA CASA</h3>
+                <p>¡Ven y visítanos!</p>
+                <p>Esta también es tu casa</p>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+    
+
+
+ <div id="FONDO">
+        <!-- Contenido del fondo gris -->
+        <div id="contenido-fondo">
+            <!-- Div para la imagen -->
+            <div id="imagen-fondo">
+                <img src="img/papa.jpg" alt="Tu imagen" width="500">
+            </div>
+            <!-- Div para la descripción -->
+            <div id="descripcion-fondo">
+                <h2>Como Iglesia Católica guiada por el Espirítu Santo, buscamos apasionadamente, en nuestra parroquia, una relación de amor con Dios y con nuestros hermanos, especialmente los más necesitados;</h2>
+                <h2>Profundizando en ese Amor Divino expresado con el envío de Jesucristo, Hijo único del Padre, para salvación de todos.</h2>
+            </div>
+        </div>
+    </div>
+
+ <br><br><br>
+    <div id="secundario">
+        <div class="imagen">
+            <img src="img/a.png" alt="Directions" width="100">
+            <h3>ESTOY AQUÍ</h3>
+            <p>Estamos aquí para atender todas tus consultas.</p>
+        </div>
+        <div class="imagen">
+            <img src="img/b.png" alt="Events" width="100">
+            <h3>VER</h3>
+            <p>Mira las retransmisiones de nuestras actividades por Facebook.</p>
+        </div>
+        <div class="imagen">
+            <img src="img/c.png" alt="Request Prayer" width="100">
+            <h3>SOLIDARIDAD</h3>
+            <p>No dudes en contribuir con la misión de la Parroquia y apoyarnos donando.</p>
+        </div>
+        <div class="imagen">
+            <img src="img/d.png" alt="Watch" width="100">
+            <h3>APOSTOLADOS</h3>
+            <p>Presta tu servicio al Señor en alguno de nuestros apostolados.</p>
+            <br><br><br> <br><br><br>
+        </div>
+    </div>
+
+      <!-- Div ULTIMO (visible en todas las secciones) -->
+    <div id="ULTIMO" >
+        <h2>LOCACIÓN Y SERVICIOS</h2>
+        <p>Parroquia María Auxiliadora</p>
+        <p>25 Avenida 24-41 zona 5 La Palmita- Ciudad de Guatemala</p>
+        <p>(502)3277 3687</p>
+        <br>
+        <p> De lunes a viernes:</p>
+        <p>Horario de Oficina Parroquial: 9:00 am - 1:00 pm | 2:00 pm - 5:00 pm</p>
+        <p>Sábados: 9:00 am - 1:00 pm</p>
+    </div>
+
+     <!-- Pie de página con enlaces a redes sociales y sus iconos -->
+    <div id="REDES-SOCIALES">
+        <a href="https://wa.me/message/7QPXLZ2VRGVYK1"><img src="img/w1.png" alt="WhatsApp"></a>
+        <a href="https://www.youtube.com/Parroquia%20Mar%C3%ADa%20Auxiliadora" target="_blank"><img src="img/y1.png" alt="YouTube"></a>
+        <a href="https://www.facebook.com/LaPalmitaZ5/?locale=es_LA" target="_blank"><img src="img/f1.png" alt="Facebook"></a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
